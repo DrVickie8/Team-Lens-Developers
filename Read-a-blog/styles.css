@@ -7,4 +7,21 @@
 
 body {
     font-family: 'Satoshi', sans-serif;
+    background: #EAFEFF;
+}
+
+.container {
+    background: #fff;
+}
+
+h2 {
+    width: 183px;
+    height: 20px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #484848;
 }
