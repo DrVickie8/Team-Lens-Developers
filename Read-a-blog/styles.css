@@ -45,9 +45,22 @@ h1 {
     height: 45px;
     font-family: 'Satoshi', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 32px;
     line-height: 140%;
     letter-spacing: 0.0015em;
     color: #15226A;
+}
+
+p {
+    width: 400px;
+    height: 44px;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.0015em;
+    color: #807878;
 }
