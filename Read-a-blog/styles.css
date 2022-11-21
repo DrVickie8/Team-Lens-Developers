@@ -12,16 +12,42 @@ body {
 
 .container {
     background: #fff;
+    display: block;
+    margin: 10rem auto;
+    border: none;
+    border-radius: 15px;
+    width: 500px;
+    padding: 50px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 h2 {
     width: 183px;
     height: 20px;
-    font-family: 'Satoshi';
+    font-family: 'Satoshi', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 140%;
     letter-spacing: 0.005em;
     color: #484848;
+}
+
+h1 {
+    width: 400px;
+    height: 45px;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0.0015em;
+    color: #15226A;
 }
