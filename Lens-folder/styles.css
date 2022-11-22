@@ -28,6 +28,10 @@ body {
     padding-top: 20px;
 }
 
+.text i {
+    cursor: pointer;
+}
+
 h2 {
     width: 183px;
     height: 20px;
