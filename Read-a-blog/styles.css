@@ -13,7 +13,7 @@ body {
 .container {
     background: #fff;
     display: block;
-    margin: 10rem auto;
+    margin: 6rem auto;
     border: none;
     border-radius: 15px;
     width: 500px;
@@ -63,4 +63,66 @@ p {
     /* or 22px */
     letter-spacing: 0.0015em;
     color: #807878;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    gap: 10px;
+    width: 380px;
+    height: 52px;
+    background: #0C2ACB;
+    border-radius: 10000px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn:hover {
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    color: #fff;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h6 {
+    height: 20px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    /* Primary Color */
+    color: #0C2ACB;
+}
+
+.bottom a {
+    height: 20px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    /* Primary Color */
+    color: #0C2ACB;
+    text-decoration: none;
 }
