@@ -10,6 +10,9 @@ body {
     background: #EAFEFF;
 }
 
+
+/* Signup page */
+
 .container {
     background: #fff;
     display: block;
@@ -130,3 +133,6 @@ h6 {
     color: #0C2ACB;
     text-decoration: none;
 }
+
+
+/* Homepage */
