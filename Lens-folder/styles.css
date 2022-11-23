@@ -255,3 +255,13 @@ nav .search-bar input[type="search"] {
     font-size: 0.9rem;
     color: var(--color-dark);
 }
+
+nav .search-bar input[type="search"]::placeholder {
+    color: var(--color-gray);
+}
+
+nav .create {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
