@@ -164,6 +164,13 @@ h6 {
     overflow-x: hidden;
 }
 
+.read {
+    font-family: 'Satoshi';
+    color: var(--color-dark);
+    background: var(--color-light);
+    overflow-x: hidden;
+}
+
 .navbar-container {
     width: 80%;
     margin: 0 auto;
@@ -214,6 +221,7 @@ img {
 .btn-primary {
     background: var(--color-primary);
     color: white;
+    
 }
 
 .text-bold {
@@ -264,4 +272,23 @@ nav .create {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+
+/* ========================MAIN================================ */
+ .left a{
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+main {
+    position: relative;
+    top: 5.4rem;
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: 18vw auto 20vw;
+    column-gap: 2rem;
+    position: relative;
 }
