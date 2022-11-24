@@ -348,7 +348,7 @@
         
          :root {
             --color-white: hsl(252, 30%, 100%);
-            --color-light: #ececec;
+            --color-light: #F4F8FF;
             --color-gray: #6c6e70;
             --color-primary: #0c2acb;
             --color-secondary: #ccdffb;
@@ -590,7 +590,7 @@
         
         nav .search-bar input[type="search"] {
             background: transparent;
-            width: 30vw;
+            width: 35vw;
             margin-left: 1rem;
             font-size: 0.9rem;
             color: var(--color-dark);
@@ -652,7 +652,7 @@
         }
         
         .left .sidebar .menu-item:hover {
-            background: var(--color-light);
+            background: #F4F8FF;
         }
         
         .left .sidebar i {
@@ -668,7 +668,7 @@
         }
         
         .left .sidebar .active {
-            background: var(--color-light);
+            background: #F4F8FF;
         }
         
         .left .sidebar .active i,
