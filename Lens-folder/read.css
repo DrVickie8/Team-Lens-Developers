@@ -511,9 +511,65 @@ main .container .right {
   text-align: center;
   padding: 14px 5px;
   border-radius: 100000px;
+}
 
-  /* justify-content: center;
+/*=================== COMMENT SECTION ======================*/
+.comment {
+  width: 100%;
+  background: #ccdffb;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 6px 1px;
-  gap: 10px; */
+}
+
+/* .comment .all .grp1 {
+  display: flex;
+  gap: 2rem;
+} */
+
+.comment .all .grp2 .flex {
+  display: flex;
+  /* gap: 1rem; */
+}
+
+/* .comment .all .grp2 .flex2 {
+  margin-top: 1rem;
+  font-size: 20px;
+  padding: 16px 40px;
+  width: 100%;
+} */
+
+.grp2 .flex2 input[type="search"] {
+  background: transparent;
+  width: 30vw;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: var(--color-dark);
+}
+
+.comment .all .grp3 {
+  display: flex;
+  justify-content: flex-end;
+  /* gap: 1rem; */
+}
+
+.comment .all .profiles .pro1 {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.comment .all .profiles .ellipses {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  vertical-align: middle;
+  /* gap: 1rem; */
+}
+
+.ellipses .ellipses-main span {
+  vertical-align: middle;
+}
+
+.middle .comment {
 }
