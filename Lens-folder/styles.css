@@ -227,6 +227,7 @@
     
     .text-muted {
         color: var(--color-gray);
+        font-size: 14px;
     }
     /* homepage navbar */
     
@@ -266,7 +267,13 @@
     nav .create {
         display: flex;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
+    }
+    
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     /*------hero section -------*/
     
@@ -346,3 +353,43 @@
         display: block;
         margin: 3rem auto;
     }
+    /* ----------------middle bar----------------- */
+    
+    .middle {
+        margin-left: 14rem;
+        margin-top: 1rem;
+    }
+    
+    .middle .post {
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        cursor: pointer;
+        transition: all 300ms ease;
+        position: relative;
+        background: var(--color-white);
+        border-radius: 1rem;
+    }
+    
+    .middle .post i {
+        font-size: 1.4rem;
+        color: var(--color-gray);
+        margin-left: 2rem;
+        position: relative;
+    }
+    
+    .middle .post h3 {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .middle .post .active i,
+    .middle .post .active h3 {
+        color: var(--color-primary);
+    }
+    
+    .new {
+        display: flex;
+        align-items: center;
+    }
+    /* -----------middle feeds----------------- */
