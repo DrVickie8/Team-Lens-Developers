@@ -367,7 +367,7 @@
         
         body {
             font-family: "Satoshi", sans-serif;
-            background: #ccdffb;
+            background: #F9FBFF;
         }
         /* Signup page */
         
@@ -516,7 +516,7 @@
         }
         
         .profile-photo {
-            width: 4rem;
+            width: 3.2rem;
             aspect-ratio: 1/1;
             border-radius: 50%;
             overflow: hidden;
@@ -652,7 +652,7 @@
         }
         
         .left .sidebar .menu-item:hover {
-            background: #F4F8FF;
+            background: #F3F6FB;
         }
         
         .left .sidebar i {
@@ -841,7 +841,7 @@
             width: max-content;
             margin: 1rem;
             padding: 1rem 1rem;
-            background: #F4F8FF;
+            background: #F3F6FB;
             border-radius: var(--border-radius);
             color: var(--color-dark);
             cursor: pointer;
