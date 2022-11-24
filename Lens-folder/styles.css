@@ -367,7 +367,7 @@
         
         body {
             font-family: "Satoshi", sans-serif;
-            background: #F9FBFF;
+            background: rgba(249, 251, 255, 0.1);
         }
         /* Signup page */
         
@@ -583,7 +583,7 @@
         }
         
         nav .search-bar {
-            background: var(--color-light);
+            background: rgba(243, 246, 251, 1);
             border-radius: var(--border-radius);
             padding: var(--search-padding);
         }
@@ -652,7 +652,7 @@
         }
         
         .left .sidebar .menu-item:hover {
-            background: #F3F6FB;
+            background: rgba(243, 246, 251, 1);
         }
         
         .left .sidebar i {
@@ -668,7 +668,7 @@
         }
         
         .left .sidebar .active {
-            background: #F4F8FF;
+            background: rgba(243, 246, 251, 1);
         }
         
         .left .sidebar .active i,
@@ -841,7 +841,7 @@
             width: max-content;
             margin: 1rem;
             padding: 1rem 1rem;
-            background: #F3F6FB;
+            background: rgba(243, 246, 251, 1);
             border-radius: var(--border-radius);
             color: var(--color-dark);
             cursor: pointer;
