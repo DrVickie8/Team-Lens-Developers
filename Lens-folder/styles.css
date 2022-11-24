@@ -366,12 +366,14 @@ main .container .left {
   height: max-content;
   position: sticky;
   top: 5.4rem;
+  
 }
 
 .left {
   margin-top: 1rem;
-  background-color: #fff;
+  background-color: #0c2acb;
   border-radius: 10px;
+  
 }
 
 .left .menu-item {
@@ -396,8 +398,28 @@ main .container .left {
 .left h3 {
   margin-left: 1.5rem;
   font-size: 1rem;
+  color: #292D32;
+
 }
 
-.left .active {
-  background: #f3f6fb;
+.left .btn {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 14px 5px;
+}
+
+.button .btn-primary {
+  background: #0c2acb;
+  color: white;
+  padding: 11px 23px;
+  width: 115.5px;
+  height: 49.5px;
+  margin-left: -5rem;
+  align-items: center;
+  border-radius: 11250px;
+}
+
+.button input[type="write"]::placeholder {
+  color: white;
 }
