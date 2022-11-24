@@ -393,3 +393,88 @@
         align-items: center;
     }
     /* -----------middle feeds----------------- */
+    
+    .middle .feeds .feed {
+        background: var(--color-white);
+        border-radius: var(--card-border-radius);
+        padding: var(--card-padding);
+        margin: 1rem 0;
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+    
+    .middle .feed .head {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .middle .feed .edit i {
+        color: var(--color-primary);
+        font-size: 1rem;
+    }
+    
+    .middle .feed .edit {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .middle .feed .user {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .middle .feed .info small {
+        color: var(--color-dark);
+        font-family: 'Satoshi';
+        font-size: 14px;
+    }
+    
+    .middle .feed .photo h3 {
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .middle .feed .photo img {
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        margin: 0.7rem 0;
+    }
+    
+    .middle .feed .action-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.4rem;
+        margin: 0.6rem;
+    }
+    
+    .middle .action-button .interaction-button {
+        display: flex;
+        align-items: center;
+        padding-right: 3.5rem;
+    }
+    
+    .middle .action-button .interaction-button i {
+        padding-right: 1rem;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    .middle .action-button .interaction-button h5 {
+        padding: 0.5rem 1rem;
+        border: 2px solid #eee;
+        border-radius: var(--border-radius);
+        font-size: 1rem;
+        cursor: pointer;
+        margin-right: 0.5rem;
+        font-weight: 400;
+    }
+    
+    .middle .action-button .bookmark {
+        display: flex;
+        align-items: center;
+    }
+    
+    .middle .action-button .bookmark i {
+        padding-right: 0.5rem;
+    }
