@@ -57,6 +57,7 @@ body {
   aspect-ratio: 1/1;
   border-radius: 50%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .profile-photo1 {
@@ -64,6 +65,7 @@ body {
   aspect-ratio: 1/1;
   border-radius: 50%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 img {
@@ -504,6 +506,7 @@ nav .search-bar input[type="search"]::placeholder {
 
 .comment .all .profiles {
   margin-top: 2rem;
+  /* cursor: pointer; */
 }
 
 .comment .all .profiles .pro1 {
@@ -521,12 +524,19 @@ nav .search-bar input[type="search"]::placeholder {
   display: flex;
   gap: 1rem;
   vertical-align: middle;
+
 }
 
 .comment .all .profiles .pro1 .sub2a i {
   color: black;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.comment .all .profiles .pro1 .sub2a i:hover {
+  color: #0c2acb;
+  background: #f3f6fb;
 }
 
 .comment .all .profiles .pro1 .sub2a p {
@@ -534,6 +544,11 @@ nav .search-bar input[type="search"]::placeholder {
   /* font-size: 14px; */
   font-weight: 700;
   margin-top: 5px;
+  cursor: pointer;
+}
+
+.comment .all .profiles .pro1 .sub2a p:hover {
+  border-bottom: 1px solid black;
 }
 
 .comment .all .profiles .pro1 .sub2b {
@@ -545,13 +560,19 @@ nav .search-bar input[type="search"]::placeholder {
 
 .comment .all .profiles .pro1 .sub2b i {
   color: #0c2acb;
+  cursor: pointer;
   /* transform: rotate(360deg); */
 }
 
 .comment .all .profiles .pro1 .sub2b p {
   color: #0c2acb;
+  cursor: pointer;
   /* font-size: 20px; */
   font-weight: 700;
+}
+
+.comment .all .profiles .pro1 .sub2b p:hover {
+  border-bottom: 1px solid #0c2acb;
 }
 
 .comment .all .profiles .ellipses {
@@ -568,6 +589,12 @@ nav .search-bar input[type="search"]::placeholder {
   font-size: 24px;
   font-weight: 500;
   margin-top: 5rem;
+  cursor: pointer;
+}
+
+.ellipses .ellipses-main i:hover {
+  color: #0c2acb;
+  background: #f3f6fb;
 }
 
 .ellipses .pro1 #br {
@@ -576,6 +603,7 @@ nav .search-bar input[type="search"]::placeholder {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
+  cursor: pointer;
   /* identical to box height, or 171% */
 
   letter-spacing: 0.5px;
@@ -583,6 +611,10 @@ nav .search-bar input[type="search"]::placeholder {
   /* Text/Black */
 
   color: #292d32;
+}
+
+.ellipses .pro1 #br:hover {
+  border-bottom: 1px solid black;
 }
 
 .ellipses .pro1 small {
