@@ -210,7 +210,7 @@ nav .search-bar input[type="search"]::placeholder {
   margin-left: 2rem;
   background: var(--color-white);
   border-radius: var(--card-border-radius);
-  /* column-gap: 1rem; */
+  column-gap: 1rem;
   width: 220px;
   border: 1px solid #eee;
   margin-bottom: 5rem;
@@ -241,7 +241,7 @@ nav .search-bar input[type="search"]::placeholder {
   margin-left: 1.5rem;
   font-size: 1rem;
   color: black;
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
 }
 
 .left .sidebar a {
@@ -282,7 +282,7 @@ nav .search-bar input[type="search"]::placeholder {
   margin: 1rem 0;
   font-size: 0.85rem;
   line-height: 1.5;
-  gap: 28px;
+  /* gap: 28px; */
 }
 
 .middle .feed .head {
@@ -314,16 +314,20 @@ nav .search-bar input[type="search"]::placeholder {
 }
 
 .middle .head .info {
+  /* color: var(--color-primary); */
   font-size: 16px;
   gap: 1.5rem;
 }
 
 .middle .head .info .adjust {
+  color: black;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
 .middle .head .info span {
+  font-size: 1rem;
+  color: var(--color-primary);
   vertical-align: middle;
 }
 
@@ -359,10 +363,15 @@ nav .search-bar input[type="search"]::placeholder {
   height: max-content;
   position: sticky;
   top: var(--sticky-top-left);
-  /* z-index: 1; */
+  bottom: 0;
+  margin-right: 1.5rem;
+  margin-bottom: 5rem;
+  z-index: 1;
+  overflow-y: hidden;
 }
 
 .right .content {
+
   margin-right: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 5rem;
@@ -524,7 +533,6 @@ nav .search-bar input[type="search"]::placeholder {
   display: flex;
   gap: 1rem;
   vertical-align: middle;
-
 }
 
 .comment .all .profiles .pro1 .sub2a i {

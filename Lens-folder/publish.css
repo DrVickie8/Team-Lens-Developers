@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  background: var(--color-white);
+  padding: 0.7rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: block;
+}
+
+.navbar {
+  /* width: 80%;
+    margin: 0 auto; */
+  width: 100%;
+  margin: 0 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Satoshi" sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  /* line-height: 150%; */
+  /* identical to box height, or 54px */
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.logo span {
+  color: #0c2acb;
+  font-style: normal;
+  font-weight: 900;
+}
+
+#post1 {
+  width: 150px;
+  display: block;
+  /* margin: 3rem auto; */
+  margin-right: -2rem;
+  background: transparent;
+  border-radius: 10000px;
+  text-align: center;
+  border: none;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  justify-content: center;
+}
+
+#post2 {
+  width: 150px;
+  display: block;
+  /* margin: 3rem auto; */
+  background: #ccdffb;
+  border-radius: 10000px;
+  text-align: center;
+  border: none;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  justify-content: center;
+}
+
+#post3 {
+  width: 150px;
+  display: block;
+  /* margin: 3rem auto; */
+  background: #0c2acb;
+  border-radius: 10000px;
+  padding: 10px 20px;
+  gap: 10px;
+  text-align: center;
+  border: none;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  justify-content: center;
+}
+
+.labels {
+  display: flex;
+  margin-right: 13rem;
+  column-gap: 2rem;
+  font-size: 18px;
+  padding: 16px 32px;
+  text-align: center;
+  border: none;
+}
+
+.navbar #post {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+/*=========== MAIN ============*/
+
+.first-class {
+  background: #77ffb7;
+  position: relative;
+  top: 10rem;
+}
