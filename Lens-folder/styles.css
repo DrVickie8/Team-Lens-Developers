@@ -508,3 +508,24 @@
            color: var(--color-dark);
            cursor: pointer;
        }
+       /* ------------Media queries for small laptop and tablets */
+       
+       @media screen and (max-width: 1200px) {
+           .hero {
+               width: 96%;
+           }
+           .hero-container {
+               grid-template-columns: 5rem auto 30vw;
+               gap: 1rem;
+           }
+           .left {
+               width: 5rem;
+               z-index: 5;
+           }
+           .sidebar h3 {
+               display: none;
+           }
+           .left #post {
+               display: none;
+           }
+       }
