@@ -371,7 +371,6 @@ nav .search-bar input[type="search"]::placeholder {
 }
 
 .right .content {
-
   /* margin-right: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 5rem; */
@@ -448,7 +447,7 @@ nav .search-bar input[type="search"]::placeholder {
 }
 
 /*=================== COMMENT SECTION ======================*/
- .comment .all {
+.comment .all {
   /* width: 100%; */
   background: #f9fbff;
   /* display: flex; */
@@ -507,10 +506,12 @@ nav .search-bar input[type="search"]::placeholder {
   color: #6c6e70;
   border-radius: 10000px;
   margin-top: 1rem;
+  margin-right: 3rem;
 }
 
 .comment .all #cancel {
   background: transparent;
+  margin-right: -0.1rem;
 }
 
 .comment .all .profiles {
