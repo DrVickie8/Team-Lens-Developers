@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Satoshi", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-white: hsl(252, 30%, 100%);
+    --color-light: #F4F8FF;
+    --color-gray: #6c6e70;
+    --color-primary: #0c2acb;
+    --color-secondary: #ccdffb;
+    --color-success: rgba(249, 251, 255, 0.1);
+    --color-danger: hsl(0, 95%, 65%);
+    --color-dark: #01051b;
+    --color-black: #292d32;
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+}
+
+body {
+    font-family: "Satoshi", sans-serif;
+    background: var(--color-light);
+}
+
+
+/* Signup page */
+
+.container {
+    background: #fff;
+    display: block;
+    margin: 6rem auto;
+    border: none;
+    border-radius: 15px;
+    width: 500px;
+    padding: 50px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.text i {
+    cursor: pointer;
+}
+
+h2 {
+    width: 183px;
+    height: 20px;
+    font-family: "Satoshi", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #484848;
+}
+
+h1 {
+    width: 400px;
+    height: 45px;
+    font-family: "Satoshi", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0.0015em;
+    color: #0c2acb;
+}
+
+p {
+    width: 400px;
+    height: 44px;
+    font-family: "Satoshi", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.0015em;
+    color: #807878;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    gap: 10px;
+    width: 380px;
+    height: 52px;
+    background: #0c2acb;
+    border-radius: 10000px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-btn:hover {
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.btn-btn {
+    color: #fff;
+    font-family: "Satoshi", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h6 {
+    height: 20px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    /* Primary Color */
+    color: #0c2acb;
+}
+
+.bottom a {
+    height: 20px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    /* Primary Color */
+    color: #0c2acb;
+    text-decoration: none;
+}
