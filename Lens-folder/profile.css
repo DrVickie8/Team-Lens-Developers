@@ -244,11 +244,20 @@ header .search-bar input[type="search"]::placeholder {
 
 /* -----------middle feeds----------------- */
 
-.middle .feeds .feed {
-    background: var(--color-white);
+.middle .feeds {
+    /* background: var(--color-white); */
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
     margin: 1rem 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.middle .feeds .feed {
+    background: rgba(243, 246, 251, 1);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    /* margin: 1rem 0; */
     font-size: 0.85rem;
     line-height: 1.5;
 }
@@ -270,13 +279,19 @@ header .search-bar input[type="search"]::placeholder {
 
 .middle .feed .user {
     display: flex;
-    gap: 1rem;
+    gap: 0.7rem;
 }
 
 .middle .feed .info small {
     color: var(--color-dark);
     font-family: 'Satoshi';
     font-size: 14px;
+}
+
+.middle .feed .info p {
+    color: var(--color-dark);
+    font-family: 'Satoshi';
+    padding-top: 5px;
 }
 
 .body-photo {
