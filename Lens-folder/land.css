@@ -149,6 +149,7 @@ p {
     /* or 22px */
     letter-spacing: 0.0015em;
     color: #807878;
+    background-color: #fff;
 }
 
 h6 {
