@@ -351,29 +351,28 @@
             
             .hero-container .main-right .right {
                 height: max-content;
+                position: -webkit-sticky;
                 position: sticky;
                 top: var(--sticky-top-right);
                 bottom: 0;
-                /* margin-right: 1.5rem;
-    margin-bottom: 5rem;
-    z-index: 1; */
-                /* overflow-y: hidden; */
             }
             
             .right .content {
-                /* margin-right: 1.5rem;
-=======
-  /* margin-right: 1.5rem;
->>>>>>> 52aec108cd1628d67365fad1f14779676f567263
-  margin-top: 2rem;
-  margin-bottom: 5rem; */
                 background-color: white;
                 border-radius: var(--card-border-radius);
                 cursor: pointer;
-                /* border: 1px solid #eee; */
-                /* align-items: center;
-  z-index: 1; */
                 padding: var(--card-padding);
+            }
+
+            .content {
+                position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+                z-index: 1; /* Stay on top */
+                top: 0; /* Stay at the top */
+                /* left: 0; */
+                background-color: #111; /* Black */
+                overflow-x: hidden; /* Disable horizontal scroll */
+                padding-top: 20px;
+                margin-top: 7.5rem;
             }
             
             .right .first {
