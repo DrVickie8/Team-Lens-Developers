@@ -122,6 +122,15 @@ nav .labels {
   border: none;
 }
 
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
 .navbar #post {
   font-size: 18px;
   padding: 16px 32px;
@@ -211,8 +220,8 @@ main .gallery i {
   cursor: pointer;
 }
 
-.first-class h1 {
-}
+/* .first-class h1 {
+} */
 
 .first-class span {
   gap: 1.5rem;
@@ -245,4 +254,42 @@ body {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+}
+
+/*---------- RESPONSIVENESS ----------*/
+
+@media screen and (max-width: 992px) {
+  body {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  nav label {
+    position: fixed;
+    background-color: #f9fbff;
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+   nav label a {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav label .show {
+    transform: translateX(0);
+  }
 }

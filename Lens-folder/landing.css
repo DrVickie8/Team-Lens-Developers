@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background: #f9fbff;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  /* left: 0; */
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+  background: #f1f7ff;
+  box-shadow: 0px 0px 4.5px rgba(120, 120, 120, 0.25);
+}
+
+.logo {
+  font-family: "Satoshi" sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  /* line-height: 150%; */
+  /* identical to box height, or 54px */
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.logo span {
+  color: #0c2acb;
+  font-style: normal;
+  font-weight: 900;
+}
+
+nav h4 {
+  margin-left: 3rem;
+}
+
+nav .btn {
+  justify-content: space-between;
+}
+
+#first-btn {
+  justify-content: center;
+  align-items: center;
+  padding: 6.75px 0px;
+  width: 99px;
+  height: 59px;
+  background: #ccdffb;
+  border-radius: 112.5px;
+  /* margin-right: -10rem; */
+}
+
+#first-btn a {
+  width: 45px;
+  height: 23px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  color: #05177b;
+  background: transparent;
+  text-decoration: none;
+}
+
+#second-btn {
+  justify-content: center;
+  align-items: center;
+  padding: 6.75px 0px;
+  width: 179px;
+  height: 59px;
+  background: #0c2acb;
+  border-radius: 112.5px;
+  margin-right: 5rem;
+}
+
+#second-btn a {
+  width: 125px;
+  height: 23px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: transparent;
+  text-decoration: none;
+}
