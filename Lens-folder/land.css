@@ -108,3 +108,87 @@ header {
     background: #ccdffb;
     color: #05177b;
 }
+
+
+/* Signup page */
+
+.modal-header,
+.modal-header h1 {
+    background: #fff;
+}
+
+.modal-body {
+    background: #fff;
+    display: block;
+    border: none;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.modal-body h2 {
+    width: 400px;
+    height: 45px;
+    font-family: "Satoshi", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0.0015em;
+    color: #0c2acb;
+    background-color: #fff;
+}
+
+p {
+    width: 400px;
+    height: 44px;
+    font-family: "Satoshi", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.0015em;
+    color: #807878;
+}
+
+h6 {
+    height: 20px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    /* Primary Color */
+    color: #0c2acb;
+}
+
+.bottom a {
+    height: 20px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    /* Primary Color */
+    color: #0c2acb;
+    text-decoration: none;
+}
+
+.modal-body button {
+    display: block;
+    margin: 1.5rem auto;
+    padding: 15px 9rem;
+    border-radius: 30px;
+    background: #0c2acb;
+}
+
+.modal-body button a {
+    text-decoration: none;
+    text-align: center;
+    background: #0c2acb;
+    color: #f1f7ff;
+}
