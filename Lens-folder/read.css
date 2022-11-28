@@ -695,11 +695,7 @@ nav .search-bar input[type="search"]::placeholder {
   }
 
   main .hero-container .left #post {
-    width: 10px;
-    display: block;
-    margin: 3rem auto;
-    background: #0c2acb;
-    border-radius: 10px;
+    display: none;
   }
 
   main .hero-container .middle {
@@ -710,4 +706,9 @@ nav .search-bar input[type="search"]::placeholder {
   main .hero-container .right {
     display: none;
   }
+
+  .comment .all .grp3 .flex3 button {
+    margin-right: 1rem;
+  }
+
 }
