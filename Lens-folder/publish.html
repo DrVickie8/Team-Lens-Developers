@@ -11,7 +11,7 @@
       sizes="16x16"
       href="../images/favicon.ico"
     />
-    <link rel="stylesheet" href="read.css" />
+    <!-- <link rel="stylesheet" href="read.css" /> -->
     <link rel="stylesheet" href="./publish.css" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400&display=swap"
@@ -38,29 +38,50 @@
 
         <div class="labels">
           <label for="create-post" class="btn btn-primary" id="post1"
-            ><a href="#" style="color: #0c2acb; text-decoration: none; text-align: center;">Cancel</a></label
+            ><a
+              href="#"
+              style="color: #0c2acb; text-decoration: none; text-align: center"
+              >Cancel</a
+            ></label
           >
 
           <label for="create-post" class="btn btn-primary" id="post2"
-            ><a href="#" style="color: #0c2acb; text-decoration: none; text-align: center;">Save to Drafts</a></label
+            ><a
+              href="#"
+              style="color: #0c2acb; text-decoration: none; background: transparent; text-align: center"
+              >Save to Drafts</a
+            ></label
           >
 
           <label for="create-post" class="btn btn-primary" id="post3"
-            ><a href="#" style="color: white; text-decoration: none; text-align: center;">Publish</a></label
+            ><a
+              href="#"
+              style="color: white; text-decoration: none; background: transparent; text-align: center"
+              >Publish</a
+            ></label
           >
         </div>
       </div>
     </nav>
 
     <main>
+      <div class="container first-class">
+        <button class="gallery">
+          <span><i class="uil uil-scenery"></i></span> Add Cover
+        </button>
 
-        <div class="container first-class">
-            <div class="gallery">
-                <button><span><i class="uil uil-scenery"></i></span></button>
-                <p>Gallery</p>
-            </div>
-        </div>
+        <label for="blog-title" ><input type="text" placeholder="Add Title"></label>
+        <hr id="down"/>
+        <span class="large"><i class="uil uil-text"></i></span>
+        <span class="large"><i class="uil uil-bold"></i></span>
+        <span class="large"><i class="uil uil-italic"></i></span>
+        <span class="large"><i class="uil uil-link"></i></span>
+        <span class="large"><i class="uil uil-globe"></i></span>
+        <span class="large"><i class="uil uil-scenery"></i></span>
+        <hr />
 
+        <label for="tell-story" class="tell"><input type="text" maxlength="2300" placeholder="Tell your story"></label>
+      </div>
     </main>
   </body>
 </html>
