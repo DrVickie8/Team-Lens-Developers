@@ -146,6 +146,10 @@ nav .search-bar input[type="search"]::placeholder {
   color: var(--color-gray);
 }
 
+#publish {
+  display: none;
+}
+
 .profile {
   display: flex;
   align-items: center;
@@ -678,6 +682,10 @@ nav .search-bar input[type="search"]::placeholder {
 
   nav .search-bar {
     display: none;
+  }
+
+  #publish {
+    display: block;
   }
 
   main .hero-container {
