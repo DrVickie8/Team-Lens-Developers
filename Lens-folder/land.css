@@ -210,7 +210,7 @@ h6 {
 
 .land1-left {
     background: transparent;
-    margin-left: 8rem;
+    margin-left: 6rem;
 }
 
 .land1-left h1 {
@@ -470,7 +470,7 @@ h6 {
 
 .display-card .card {
     padding: 22.5px 22.5px 45px;
-    margin-right: 30px;
+    margin-right: 20px;
     gap: 27px;
     width: 400px;
     height: 455px;
@@ -541,4 +541,130 @@ h6 {
     top: 57.37%;
     bottom: -30.14%;
     background: #CCE1FF;
+}
+
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 540px;
+    left: 0px;
+    top: 3920px;
+    background: #F9F9FF;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-left h4,
+.footer-left span,
+.footer-left p {
+    background: #F9F9FF;
+}
+
+.footer-left h4 {
+    position: absolute;
+    width: 189px;
+    height: 61px;
+    left: 166.5px;
+    top: 85.5px;
+    font-family: 'Satoshi';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40.5px;
+    line-height: 150%;
+    /* identical to box height, or 61px */
+    letter-spacing: 0.02em;
+    /* Primary Color */
+    line-height: 4rem;
+}
+
+.footer-left h4 span {
+    color: #0C2ACB;
+    font-style: normal;
+}
+
+.footer-left p {
+    position: absolute;
+    width: 315px;
+    height: 54px;
+    left: 166.5px;
+    top: 155.25px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    letter-spacing: 0.02em;
+    /* text/grey */
+    color: #6C6E70;
+}
+
+.footer-middle h2 {
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    left: 639px;
+    top: 97.88px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.625px;
+    line-height: 27px;
+    /* identical to box height, or 114% */
+    color: #181433;
+}
+
+.footer-right h2 {
+    position: absolute;
+    width: 113px;
+    height: 27px;
+    left: 830.25px;
+    top: 97.88px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.625px;
+    line-height: 27px;
+    /* identical to box height, or 114% */
+    color: #181433;
+}
+
+.footer-middle a,
+.footer-right a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 27px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    /* text/grey */
+    color: #6C6E70;
+    position: absolute;
+    top: 200px;
+}
+
+.footer-bottom {
+    width: 500px;
+    height: 21px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 155.02%;
+    /* identical to box height, or 21px */
+    display: flex;
+    color: #000000;
+    align-items: center;
+    justify-content: space-between;
 }
