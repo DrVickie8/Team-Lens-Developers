@@ -66,6 +66,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #f1f7ff;
 }
 
 .profile .btn-primary {
@@ -192,4 +193,352 @@ h6 {
     text-align: center;
     background: #0c2acb;
     color: #f1f7ff;
+}
+
+
+/* -------landing section 1-------- */
+
+.land1 {
+    background-color: #CCE1FF;
+    position: relative;
+    /* top: 10rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.land1-left {
+    background: transparent;
+    margin-left: 8rem;
+}
+
+.land1-left h1 {
+    width: 500.75px;
+    height: 72px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71.9999px;
+    line-height: 100%;
+    /* identical to box height, or 72px */
+    letter-spacing: -0.025em;
+    color: #0723B4;
+    background-color: transparent;
+}
+
+.land1-left p {
+    width: 334px;
+    height: 54px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    color: #0D2DA9;
+    background-color: transparent;
+}
+
+.land1-left button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.75px 0px;
+    width: 189px;
+    height: 59px;
+    background: #0C2ACB;
+    border-radius: 112.5px;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+.land1-right {
+    width: 100%;
+}
+
+.land1-right img {
+    width: 100%;
+    background-color: #cce1ff;
+}
+
+
+/* land2 */
+
+.land2 {
+    position: absolute;
+    width: 1440px;
+    height: 1073.25px;
+    left: 0px;
+    background: #F0F6FF;
+}
+
+.land2 h2 {
+    position: absolute;
+    width: 695px;
+    height: 45px;
+    left: 349.88px;
+    top: 235.12px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 100%;
+    /* identical to box height, or 45px */
+    letter-spacing: -0.015em;
+    color: #0723B4;
+    background: #F0F6FF;
+}
+
+.cards {
+    position: absolute;
+    left: 18rem;
+    top: 400px;
+    display: flex;
+    column-gap: 3rem;
+    width: 800px;
+    background: #F0F6FF;
+}
+
+.cards1 {
+    position: absolute;
+    left: 18rem;
+    top: 700px;
+    display: flex;
+    column-gap: 3rem;
+    width: 800px;
+    background: #F0F6FF;
+}
+
+.card {
+    width: 400px;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10.125px 2.25px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.card-body {
+    background: #fff;
+}
+
+.card-body i {
+    font-size: 3rem;
+    color: #0723B4;
+    background: #CCDFFB;
+    border-radius: 30px;
+}
+
+.card-sub {
+    background: #fff;
+    text-align: left;
+    margin-top: 2rem;
+    height: 22px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.75px;
+    line-height: 137.3%;
+    /* identical to box height, or 22px */
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #331B3B;
+}
+
+.card-body p {
+    width: 320px;
+    background: #fff;
+}
+
+
+/* land 3 */
+
+.land3 {
+    position: absolute;
+    width: 100%;
+    height: 675px;
+    left: 0;
+    top: 115rem;
+    background: #CCE1FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.land3-left {
+    width: 100%;
+    /* z-index: 1; */
+}
+
+.land3-left img {
+    width: 100%;
+    object-fit: cover;
+    background-color: #cce1ff;
+    /* opacity: 0.4; */
+}
+
+.land3-right,
+.land3-right h1,
+.land3-right p {
+    background: #CCE1FF;
+}
+
+.land3-right {
+    background: transparent;
+    margin-left: 8rem;
+}
+
+.land3-right h1 {
+    width: 500.75px;
+    height: 72px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71.9999px;
+    line-height: 100%;
+    /* identical to box height, or 72px */
+    letter-spacing: -0.025em;
+    color: #0723B4;
+}
+
+.land3-right p {
+    width: 334px;
+    height: 54px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    color: #0D2DA9;
+    background-color: transparent;
+}
+
+.land3-right button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.75px 0px;
+    width: 189px;
+    height: 59px;
+    background: #0C2ACB;
+    border-radius: 112.5px;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+
+/* land 4 */
+
+.land4 {
+    position: absolute;
+    width: 1440px;
+    height: 787.5px;
+    left: 0px;
+    top: 2500px;
+    background: #F0F6FF;
+}
+
+.land4 h2 {
+    position: absolute;
+    width: 232px;
+    height: 36px;
+    left: 550px;
+    top: 102.38px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+    letter-spacing: -0.015em;
+    color: #0723B4;
+    background: #F0F6FF;
+}
+
+.display-card {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 180px;
+    left: 4rem;
+    background: #F0F6FF;
+}
+
+.display-card .card {
+    padding: 22.5px 22.5px 45px;
+    margin-right: 30px;
+    gap: 27px;
+    width: 400px;
+    height: 455px;
+    background: #FFFFFF;
+    border: 1.125px solid #ECECEC;
+    border-radius: 31.5px;
+}
+
+.display-card .card-body h5 {
+    background: #FFFFFF;
+}
+
+
+/* land5 */
+
+.land5 {
+    position: absolute;
+    width: 1440px;
+    height: 639px;
+    left: 0px;
+    top: 3280px;
+    background: #CCE1FF;
+}
+
+.land5 h5 {
+    position: absolute;
+    width: 684px;
+    height: 70px;
+    left: 377px;
+    top: 182.09px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 155.02%;
+    /* identical to box height, or 70px */
+    text-align: center;
+    color: #0723B4;
+    background: #CCE1FF;
+}
+
+.land5 button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.75px 0px;
+    position: absolute;
+    width: 189px;
+    height: 59px;
+    left: 625.5px;
+    top: 269.84px;
+    background: #0C2ACB;
+    border-radius: 112.5px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 125% */
+    color: #FFFFFF;
+}
+
+.land5 img {
+    position: absolute;
+    left: 39.92%;
+    right: 39.92%;
+    top: 57.37%;
+    bottom: -30.14%;
+    background: #CCE1FF;
 }
