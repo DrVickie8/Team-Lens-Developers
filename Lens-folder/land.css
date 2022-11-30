@@ -636,6 +636,9 @@ footer {
     color: #181433;
 }
 
+
+/* added new codes starts here */
+
 .footer-middle a {
     display: flex;
     flex-direction: column;
