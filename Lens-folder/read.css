@@ -659,6 +659,9 @@ img {
   body {
     overflow: scroll;
     overflow-x: hidden;
+    position: fixed;
+    width: 100vw;
+    max-width: 100%;
   }
 
   ::-webkit-scrollbar {
@@ -666,7 +669,7 @@ img {
     background: transparent;
   }
 
-  nav-header .search-bar {
+  .nav-header .search-bar {
     display: none;
   }
 
@@ -677,6 +680,8 @@ img {
   main .hero-container {
     grid: 0 auto 7rem;
     gap: 1rem;
+    /* position: fixed; */
+    /* width: 100%; */
     /* overflow-y: hidden; */
   }
 
@@ -686,6 +691,7 @@ img {
     bottom: 0;
     right: 0;
     margin-right: 2rem;
+    
   }
 
   main .hero-container .left #post {
@@ -694,6 +700,7 @@ img {
 
   main .hero-container .middle {
     grid-column: 1/3;
+    /* position: fixed; */
     /* margin-left: 0; */
   }
 

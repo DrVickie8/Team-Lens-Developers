@@ -34,6 +34,7 @@ nav {
 
 .navbar {
   position: fixed;
+  overflow: hidden;
   top: 0;
   width: 100%;
   z-index: 1;
@@ -55,10 +56,15 @@ nav {
   cursor: pointer;
 }
 
-.logo .story {
+.logo span {
   color: #0c2acb;
   font-style: normal;
   font-weight: 900;
+}
+
+.navbar .labels a {
+  float: left;
+
 }
 
 #post1 {
@@ -259,7 +265,7 @@ body {
 /*---------- RESPONSIVENESS ----------*/
 
 @media screen and (max-width: 992px) {
-  body {
+  /* body {
     overflow: scroll;
     overflow-x: hidden;
   }
@@ -267,9 +273,34 @@ body {
   ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
+  } */
+
+  .navbar a:not(:first-child) {
+    display: none;
   }
 
-  nav label {
+  .navbar a.burger-menu {
+    float: right;
+    display: block;
+  }
+
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .burger-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* nav label {
     position: fixed;
     background-color: #f9fbff;
     flex-direction: column;
@@ -291,5 +322,5 @@ body {
 
   nav label .show {
     transform: translateX(0);
-  }
+  } */
 }
