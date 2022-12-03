@@ -228,6 +228,13 @@ header .search-bar input[type="search"]::placeholder {
     text-align: center;
 }
 
+#post-follow {
+    width: 200px;
+    display: block;
+    margin: 3rem auto;
+    text-align: center;
+}
+
 
 /* ----------------middle bar----------------- */
 
